@@ -133,7 +133,7 @@ fun ArtSpaceLayout(modifier: Modifier = Modifier) {
 
             ) {
                 ScrollButton(
-                    text = "Previous",
+                    text = stringResource(id = R.string.previous),
                     onClicked = {
                         if (imgIndex != 0) {
                             imgIndex--
@@ -150,7 +150,7 @@ fun ArtSpaceLayout(modifier: Modifier = Modifier) {
 
             Box {
                 ScrollButton(
-                    text = "Next",
+                    text = stringResource(id = R.string.next),
                     onClicked = {
                         if (imgIndex != 6) {
                             imgIndex++
